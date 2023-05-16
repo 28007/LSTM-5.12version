@@ -1,7 +1,7 @@
 # LSTM-5.12version
 In this version, we use all 2080 channels  and all time steps except the zero value of a HMC sample to train the net and applying the model to a new HMC data.  
 
-We create training dataset from all 2080 channels. We need to use MATLAB and Python both.  
+We create training dataset from all 2080 channels. We need to use MATLAB and Python both. Here we only upload the Python predicting part. 
 
 ![image](https://github.com/28007/LSTM-5.12version/assets/119842972/d30ef3c2-c7c6-4fd5-9886-8f0d868b81ff)
 
