@@ -30,8 +30,8 @@ We save the result in `full_seq.mat` or  `pointbypoint.mat`.
 We finish this in MATLAB, using the script `TFM_adaptive_v16.mat`.
 ## 3.1 concat
 We replace the ROI part of HMC data with the predict result,  according to the mentioned channel information.
-## Imaging
+## 3.2 Imaging
 Conduct the TFM using new HMC data.
-## SNR
+## 3.3 SNR
 Besides the ROI region, we set the noise area. We do abs and maximum-normalization and dB-normalization in TFM.  We divide the maximum in ROI region `defect_amp` by the average in noise area `noise_amp`, transforming into dB as the SNR.
 
